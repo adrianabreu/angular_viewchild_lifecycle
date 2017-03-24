@@ -1,3 +1,6 @@
 <h1>
   {{title}}
 </h1>
+
+<button type="button" (click)="renderChildAndDoChildStuff()">Render the child!</button>
+<child *ngIf="timeToRenderChild"></child>
